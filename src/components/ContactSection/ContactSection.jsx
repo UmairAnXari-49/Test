@@ -25,6 +25,8 @@ function ContactSection() {
             data-netlify="true"
           >
             <input type="hidden" name="form-name" value="contact" />
+          
+
 
             <h1>Let's talk</h1>
 
