@@ -41,7 +41,7 @@ function ContactSection() {
             ></textarea>
 
             <p>
-            <button type="submit">Send</button>
+            <button type="submit">Sendmsg</button>
           </p>
           </form>
         </div>
