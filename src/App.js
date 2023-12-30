@@ -17,6 +17,7 @@ function App() {
       <SkillsSection id="skills" />
       <ProjectsSection id="portfolio" />
       <ContactSection id="contact" />
+    <ContactForm />
       <Footer />
     </div>
   );
