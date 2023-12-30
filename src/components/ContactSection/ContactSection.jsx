@@ -19,11 +19,11 @@ function ContactSection() {
 
         <div className="form-overlay">
           <form
-            
+            onSubmit={handleSubmit}
             name="contact"
             method="post"
             data-netlify="true"
-            onSubmit="submit"
+            
           >
             <input type="hidden" name="form-name" value="contact" />
           
@@ -41,7 +41,8 @@ function ContactSection() {
               required
             ></textarea>
 
-            <button type="submit">
+            <button type="submit" className="send-button">
+
               Send
             </button>
           </form>
