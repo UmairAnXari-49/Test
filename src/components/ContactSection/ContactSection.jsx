@@ -40,9 +40,9 @@ function ContactSection() {
               required
             ></textarea>
 
-            <p>
-            <button type="submit">Sendmsg</button>
-          </p>
+            <button type="submit" className="send-button">
+              Send
+            </button>
           </form>
         </div>
       </div>
